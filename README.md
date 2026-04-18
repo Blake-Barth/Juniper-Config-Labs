@@ -6,7 +6,9 @@ A collection of high-level Juniper networking labs. This repository showcases fu
 
 ## 📂 Lab Collection
 
-Each folder below contains a standalone project with all necessary assets for replication.
+Each folder below contains a standalone project with the necessary configuration assets for replication.
+
+> You can download official evaluation or licensed images directly from the [Juniper Networks Support Portal](https://support.juniper.net/support/downloads/).
 
 ---
 
@@ -24,11 +26,13 @@ Every lab folder provides a comprehensive package for technical analysis and rep
 ## 🚀 How to Use
 
 1.  **Build:** Match your EVE-NG topology to the provided diagram.
-2.  **Implementation:** * Open the baseline configuration file for a device (e.g., `R1.txt`).
-    * On the EVE-NG console, enter configuration mode (`edit`).
-    * **Audit the interface IDs:** Ensure the interfaces in the text file (e.g., `ge-0/0/0`) match the physical cabling in your EVE-NG lab.
-    * Use the configuration text as a guide to apply the logic to your nodes.
-3.  **Verification:** Check the included video or README to see the expected convergence results, then run the corresponding `show` commands on your own nodes to verify the state.
+2.  **Initial Setup:** * Access the EVE-NG console for each node.
+    * Enter configuration mode (`edit`).
+    * Apply the `Default_Config.txt` to establish consistent system settings and credentials.
+3.  **Implementation:** * Open the node-specific configuration file (e.g., `R1.txt`).
+    * **Audit the interface IDs:** Verify that the interfaces in the text file (e.g., `ge-0/0/0`) match your physical cabling in EVE-NG. 
+    * Use the `show | display set` formatted text as a guide to apply the specific routing and switching logic to your nodes.
+4.  **Verification:** Check the included video or README to see the expected convergence results, then run the corresponding `show` commands on your own nodes to verify the state. Check that full network connectivity exists using **Ping** and **Traceroute** to validate end-to-end reachability.
 
 ---
 
