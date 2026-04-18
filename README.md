@@ -31,7 +31,7 @@ Every lab folder provides a comprehensive package for technical analysis and rep
     * Apply the `Default_Config.txt` to establish consistent system settings and credentials.
 3.  **Implementation:** * Open the node-specific configuration file (e.g., `R1.txt`).
     * **Audit the interface IDs:** Verify that the interfaces in the text file (e.g., `ge-0/0/0`) match your physical cabling in EVE-NG. 
-    * Use the `show | display set` formatted text as a guide to apply the specific routing and switching logic to your nodes.
+    * Use the **Node-Specific Configuration** formatted text as a guide to apply the specific routing and switching logic to your nodes.
 4.  **Verification:** Check the included video or README to see the expected convergence results, then run the corresponding `show` commands on your own nodes to verify the state. Check that full network connectivity exists using **Ping** and **Traceroute** to validate end-to-end reachability.
 
 ---
