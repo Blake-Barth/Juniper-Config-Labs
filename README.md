@@ -17,7 +17,7 @@ Each folder below contains a standalone project with the necessary configuration
 Every lab folder provides a comprehensive package for technical analysis and replication:
 
 1.  **Topology Diagram:** A clear map of the network architecture (`topology.png`).
-2.  **Default/Base Configuration:** A `default_config.txt` file containing the initial setup applied to every node (system hostnames, root authentication, and management services) to ensure a consistent starting point.
+2.  **Default/Base Configuration:** A `default_config.txt` file containing the initial setup applied to every node.
 3.  **Node-Specific Configurations:** Reference `.txt` files containing the validated logic for each specific node. These configurations were captured using the `show | display set` command to provide a clear, line-by-line template for your own implementation.
 4.  **Lab README:** A breakdown of the technical objectives, protocols involved, and specific verification commands.
 
