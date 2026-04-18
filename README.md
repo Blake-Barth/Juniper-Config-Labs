@@ -28,7 +28,7 @@ Every lab folder provides a comprehensive package for technical analysis and rep
 1.  **Build:** Match your EVE-NG topology to the provided diagram.
 2.  **Initial Setup:** * Access the EVE-NG console for each node.
     * Enter configuration mode (`edit`).
-    * Apply the `Default_Config.txt` to establish consistent system settings and credentials.
+    * Apply the `default_config.txt` to establish consistent system settings and credentials.
 3.  **Implementation:** * Open the node-specific configuration file (e.g., `R1.txt`).
     * **Audit the interface IDs:** Verify that the interfaces in the text file (e.g., `ge-0/0/0`) match your physical cabling in EVE-NG. 
     * Use the **Node-Specific Configuration** formatted text as a guide to apply the specific routing and switching logic to your nodes.
