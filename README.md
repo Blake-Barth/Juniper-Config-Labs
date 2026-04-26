@@ -1,6 +1,6 @@
 # Juniper-Config-Labs (EVE-NG)
 
-A collection of high-level Juniper networking labs. This repository showcases functional configurations and topologies for **JNCIS-DevOps**, **JNCIP-SP**, and large-scale **Service Provider** projects, all built and validated in **EVE-NG**.
+A collection of high-level Juniper networking labs. This repository showcases functional configurations and topologies for **JNCIS-DevOps** and **JNCIP-SP**, all built and validated in **EVE-NG**.
 
 ---
 
